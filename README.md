@@ -2,7 +2,7 @@
 
 Interact with your Pinboard bookmarks
 
-<a href='https://alfred.app/workflows/vitor/pin-plus'>⤓ Install From the Alfred Gallery</a>
+<a href='https://alfred.app/workflows/vitor/pin-plus'>⤓ Install on the Alfred Gallery</a>
 
 ## Usage
 
@@ -19,7 +19,7 @@ Search all bookmarks with the Show All Keyword (default: `pin`) or only the unre
 * <kbd>⏎</kbd>: Open in web browser.
 * <kbd>⇧</kbd><kbd>⏎</kbd>: Open on Pinboard’s website.
 * <kbd>⌥</kbd><kbd>⏎</kbd>: Copy URL.
-* <kbd>⌘</kbd><kbd>⏎</kbd>: Download the video on the page. Requires [DownMedia](https://alfred.app/workflows/vitor/download-media/).
+* <kbd>⌘</kbd><kbd>⏎</kbd>: Download the video on the page. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
 * <kbd>⌃</kbd>: Show tags.
 * <kbd>fn</kbd>: Show description.
 

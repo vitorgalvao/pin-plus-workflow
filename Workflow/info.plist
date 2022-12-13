@@ -386,6 +386,50 @@
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>run_bookmarklet.js</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>96E1CC1B-3F76-4961-9E26-5B3D2BD1D122</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:add_new_keyword}</string>
+				<key>subtext</key>
+				<string>Call a GUI to add a bookmark</string>
+				<key>text</key>
+				<string>Add Bookmark</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A47E38E8-87FB-42B7-A966-4CFC5B0798FF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
 				<string># Checks
@@ -456,50 +500,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>run_bookmarklet.js</string>
-				<key>type</key>
-				<integer>8</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>96E1CC1B-3F76-4961-9E26-5B3D2BD1D122</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>{var:add_new_keyword}</string>
-				<key>subtext</key>
-				<string>Call a GUI to add a bookmark</string>
-				<key>text</key>
-				<string>Add Bookmark</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>A47E38E8-87FB-42B7-A966-4CFC5B0798FF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -523,6 +523,31 @@ fi</string>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>8DC58A3C-6774-4B9F-BC7D-0891C9A648F4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>require "#{Dir.pwd}/pinplus.rb"
+
+add_unread</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>348262A6-0298-49B4-A582-AF48C527E471</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -567,7 +592,8 @@ fi</string>
 				<key>script</key>
 				<string>require "#{Dir.pwd}/pinplus.rb"
 
-add_unread</string>
+print JSON.parse(File.read(Unread_bookmarks_json))['items'].map { |item| item['arg'
+] }.sample</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -578,7 +604,7 @@ add_unread</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>348262A6-0298-49B4-A582-AF48C527E471</string>
+			<string>DC6DE0A7-2311-4F8C-A1A8-457DC074F1EA</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -614,28 +640,23 @@ add_unread</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>require "#{Dir.pwd}/pinplus.rb"
-
-print JSON.parse(File.read(Unread_bookmarks_json))['items'].map { |item| item['arg'
-] }.sample</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
+				<key>browser</key>
 				<string></string>
-				<key>type</key>
-				<integer>2</integer>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>DC6DE0A7-2311-4F8C-A1A8-457DC074F1EA</string>
+			<string>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -687,27 +708,6 @@ show_bookmarks(All_bookmarks_json)</string>
 			<string>2B67AFF0-0412-4E9B-88CE-ADF345434F52</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -788,6 +788,26 @@ action_unread(ENV['unread_action'], ARGV[0])</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_unread</key>
+					<string>true</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>BBA7D5B8-BDF1-4669-B928-461708E18DDF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -820,20 +840,21 @@ action_unread(ENV['unread_action'], ARGV[0])</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
 				<false/>
-				<key>variables</key>
-				<dict>
-					<key>is_unread</key>
-					<string>true</string>
-				</dict>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://alfred.app/workflows/vitor/download-media/</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>BBA7D5B8-BDF1-4669-B928-461708E18DDF</string>
+			<string>7FB43A68-C343-4F70-9C00-537C821140A2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -875,27 +896,6 @@ function run(argv) {
 			<string>E38BE1A6-B024-4637-9693-8AE05B8600CD</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://alfred.app/workflows/vitor/download-media/</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>7FB43A68-C343-4F70-9C00-537C821140A2</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -973,6 +973,27 @@ function run(argv) {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>955157E7-B3A9-4312-8A9E-F5AEE7D2CB6A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -994,27 +1015,6 @@ search_in_website(ARGV[0])</string>
 			<string>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>955157E7-B3A9-4312-8A9E-F5AEE7D2CB6A</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1058,27 +1058,6 @@ search_in_website(ARGV[0])</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>:pinplusforceupdate</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Force Update of Pinboard Bookmarks</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>4FB6B196-D4A2-431D-B33C-E1DFB0A5A57F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -1100,6 +1079,27 @@ fetch_bookmarks(true)</string>
 			<string>0DF168C1-F23D-42AE-937F-D625877ED05D</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>:pinplusforceupdate</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Force Update of Pinboard Bookmarks</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4FB6B196-D4A2-431D-B33C-E1DFB0A5A57F</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1158,7 +1158,7 @@ Search all bookmarks with the Show All Keyword (default: `pin`) or only the unre
 * &lt;kbd&gt;↩&lt;/kbd&gt;: Open in web browser.
 * &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Open on Pinboard’s website.
 * &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Copy URL.
-* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Download the video on the page. Requires [DownMedia](https://alfred.app/workflows/vitor/download-media/).
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Download the video on the page. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
 * &lt;kbd&gt;⌃&lt;/kbd&gt;: Show tags.
 * &lt;kbd&gt;fn&lt;/kbd&gt;: Show description.
 
@@ -1539,7 +1539,7 @@ Bookmarks are refetched if the local data is old. If necessary, an immediate cac
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2022.2</string>
+	<string>2022.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/pin-plus-workflow/</string>
 </dict>
