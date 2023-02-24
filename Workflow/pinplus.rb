@@ -122,33 +122,54 @@ def fetch_bookmarks(force = false)
     ENV['sort_unread_newest'] == '1' ? unread_bookmarks.push(bookmark) : unread_bookmarks.unshift(bookmark)
   end
 
-  write_bookmarks(all_bookmarks, All_bookmarks_json, true)
-  write_bookmarks(unread_bookmarks, Unread_bookmarks_json, false)
+  write_bookmarks(all_bookmarks, All_bookmarks_json, false)
+  write_bookmarks(unread_bookmarks, Unread_bookmarks_json, true)
 end
 
-def write_bookmarks(bookmarks, bookmarks_file, add_uid)
-  json = []
-
-  bookmarks.each do |bookmark|
+def write_bookmarks(bookmarks, bookmarks_file, skip_knowledge)
+  sf_items = bookmarks.each_with_object([]) do |bookmark, items|
+    # More searcheable URL
     split_href = bookmark['href'].split('/').reject { |a| a.start_with?('http') || a.empty? }.join(' ').sub('www.', '')
 
-    entry = {
+    # Available actions for modifiers
+    actions = {
+      open_url: { subtitle: "Open #{bookmark['href']}" },
+      copy_url: { subtitle: 'Copy link to clipboard' },
+      view_tags: { subtitle: bookmark['tags'].empty? ? '[No tags]' : bookmark['tags'] },
+      view_description: { subtitle: bookmark['extended'].empty? ? '[No description]' : bookmark['extended'] },
+      pinboard_site: { subtitle: 'Open bookmark on Pinboard’s site' },
+      download_video: { subtitle: 'Download video to watch later' }
+    }
+
+    # Each action has a variable with the same name
+    actions.keys.each do |key|
+      actions[key][:variables] = { action: key.to_s }
+    end
+
+    # Populate modifiers
+    modifiers = {
+      cmd: actions[ENV['mod_cmd'].to_sym],
+      alt: actions[ENV['mod_alt'].to_sym],
+      ctrl: actions[ENV['mod_ctrl'].to_sym],
+      shift: actions[ENV['mod_shift'].to_sym],
+      fn: { variables: { action: 'fetch_bookmarks' }, subtitle: 'Force Cache Update' }
+    }
+
+    items.push({
+      uid: bookmark['href'],
       title: bookmark['description'],
       subtitle: bookmark['href'],
       match: "#{bookmark['description']} #{split_href} #{bookmark['extended']} #{bookmark['tags']}",
-      mods: {
-        fn: { subtitle: bookmark['extended'] },
-        ctrl: { subtitle: bookmark['tags'] }
-      },
+      mods: modifiers,
       arg: bookmark['href']
-    }
-
-    entry['uid'] = bookmark['href'] if add_uid
-
-    json.push(entry)
+    })
   end
 
-  File.write(bookmarks_file, { items: json }.to_json)
+  File.write(bookmarks_file, {
+    variables: { action: ENV['mod_none'] },
+    skipknowledge: skip_knowledge,
+    items: sf_items
+  }.to_json)
 end
 
 def search_in_website(url)

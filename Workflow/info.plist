@@ -10,7 +10,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>955157E7-B3A9-4312-8A9E-F5AEE7D2CB6A</string>
+				<string>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -38,41 +38,11 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</string>
+				<string>6F415838-BBDD-460D-8389-C5292566442A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>E38BE1A6-B024-4637-9693-8AE05B8600CD</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Download video to watch later</string>
-				<key>vitoclose</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</string>
-				<key>modifiers</key>
-				<integer>131072</integer>
-				<key>modifiersubtext</key>
-				<string>Open bookmark on Pinboard’s site</string>
-				<key>vitoclose</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>51173530-985F-468F-90DC-B37CC651F01A</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string>Copy link to clipboard</string>
 				<key>vitoclose</key>
 				<true/>
 			</dict>
@@ -103,11 +73,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>4FB6B196-D4A2-431D-B33C-E1DFB0A5A57F</key>
+		<key>51173530-985F-468F-90DC-B37CC651F01A</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0DF168C1-F23D-42AE-937F-D625877ED05D</string>
+				<string>63BFE2ED-8406-43CD-8D9E-B92207F8F738</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -115,12 +85,9 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-		</array>
-		<key>51173530-985F-468F-90DC-B37CC651F01A</key>
-		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>63BFE2ED-8406-43CD-8D9E-B92207F8F738</string>
+				<string>700D9E72-F8D4-4DC2-8A5E-E78DD2A72A7A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -159,8 +126,68 @@
 				<false/>
 			</dict>
 		</array>
-		<key>65AAB448-3013-42AB-A59B-A886A23A7B3C</key>
+		<key>6F415838-BBDD-460D-8389-C5292566442A</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>5A8BFFAE-6BF4-46B6-A1E5-B7E1069ABB07</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>5B2D7299-0030-4015-B21A-A88AEF72B12A</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>640D4BEC-29E1-4562-ABB4-289B61C5F44C</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>78844A0F-A50E-4945-B008-118FFED81DC1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>51173530-985F-468F-90DC-B37CC651F01A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F572CB2A-7A72-4D91-9BCB-D6D37C3FEE2C</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>E38BE1A6-B024-4637-9693-8AE05B8600CD</string>
@@ -168,6 +195,20 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C9123165-8CFC-491E-AEE5-40C75DC58D3F</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>965BA49B-7AC1-43F3-8602-1F02FCC74695</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>3D0CCE04-E56F-48DE-906A-F83FD8C309AB</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -185,8 +226,19 @@
 				<false/>
 			</dict>
 		</array>
-		<key>955157E7-B3A9-4312-8A9E-F5AEE7D2CB6A</key>
-		<array/>
+		<key>965BA49B-7AC1-43F3-8602-1F02FCC74695</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D38647F8-612B-4C9F-BE63-8F4B3D60EB74</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>96E1CC1B-3F76-4961-9E26-5B3D2BD1D122</key>
 		<array>
 			<dict>
@@ -236,11 +288,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>AC4A2ACA-CEFF-4C48-9B37-A39B17B934C4</key>
+		<key>BBA7D5B8-BDF1-4669-B928-461708E18DDF</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>51173530-985F-468F-90DC-B37CC651F01A</string>
+				<string>6F415838-BBDD-460D-8389-C5292566442A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -249,11 +301,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>BBA7D5B8-BDF1-4669-B928-461708E18DDF</key>
+		<key>D38647F8-612B-4C9F-BE63-8F4B3D60EB74</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</string>
+				<string>3D96CA77-D858-4A9D-88A1-96F3EA66673A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -266,7 +318,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BBA7D5B8-BDF1-4669-B928-461708E18DDF</string>
+				<string>F575A0BC-7BDD-44EE-828A-AD3B6F1E074B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -292,6 +344,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1B064314-76EC-4BF6-B361-A58A329A9C66</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E3D8770A-3517-4F4F-854A-7E88C2FA4E37</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DD770517-8DE4-4374-AF73-7186420C0978</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -326,6 +391,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F575A0BC-7BDD-44EE-828A-AD3B6F1E074B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>FA9C9F80-EFDB-4A12-AA7A-DC5D0F76E557</key>
 		<array>
 			<dict>
@@ -335,36 +413,6 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>65AAB448-3013-42AB-A59B-A886A23A7B3C</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Download video to watch later</string>
-				<key>vitoclose</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</string>
-				<key>modifiers</key>
-				<integer>131072</integer>
-				<key>modifiersubtext</key>
-				<string>Open bookmark on Pinboard’s site</string>
-				<key>vitoclose</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>AC4A2ACA-CEFF-4C48-9B37-A39B17B934C4</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string>Copy link to clipboard</string>
 				<key>vitoclose</key>
 				<true/>
 			</dict>
@@ -380,6 +428,46 @@
 	<string>Pin Plus</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>require "#{Dir.pwd}/pinplus.rb"
+
+ENV['force_update'] == "true" ? fetch_bookmarks(true) : fetch_bookmarks</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E3D8770A-3517-4F4F-854A-7E88C2FA4E37</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>fetch_bookmarks</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>EF339515-CFD8-47BF-B208-FF9DCA32A2C1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -449,8 +537,23 @@ read -r -d '' plist_contents &lt;&lt;ENDPLIST
     &lt;key&gt;ProgramArguments&lt;/key&gt;
     &lt;array&gt;
         &lt;string&gt;/usr/bin/osascript&lt;/string&gt;
+        &lt;string&gt;-l&lt;/string&gt;
+        &lt;string&gt;JavaScript&lt;/string&gt;
         &lt;string&gt;-e&lt;/string&gt;
-        &lt;string&gt;if application id &amp;quot;com.runningwithcrayons.Alfred&amp;quot; is running then tell application id &amp;quot;com.runningwithcrayons.Alfred&amp;quot; to run trigger &amp;quot;fetch_bookmarks&amp;quot; in workflow &amp;quot;${alfred_workflow_bundleid}&amp;quot;&lt;/string&gt;
+        &lt;string&gt;
+          function run(argv) {
+            try {
+              const alfred = Application(&amp;quot;com.runningwithcrayons.Alfred&amp;quot;)
+              if (alfred.running()) alfred.runTrigger(argv[1], { inWorkflow: argv[0] })
+            } catch {
+              const fileManager = $.NSFileManager.defaultManager
+              const plistFile = fileManager.homeDirectoryForCurrentUser.path.js + &amp;quot;/Library/LaunchAgents/&amp;quot; + argv[0] + &amp;quot;.plist&amp;quot;
+              fileManager.removeItemAtPathError(plistFile, undefined)
+            }
+          }
+        &lt;/string&gt;
+        &lt;string&gt;${alfred_workflow_bundleid}&lt;/string&gt;
+        &lt;string&gt;fetch_bookmarks&lt;/string&gt;
     &lt;/array&gt;
     &lt;key&gt;RunAtLoad&lt;/key&gt;
     &lt;true/&gt;
@@ -563,11 +666,9 @@ add_unread</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>32</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1048576</integer>
-				<key>hotstring</key>
-				<string>U</string>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -611,6 +712,27 @@ print JSON.parse(File.read(Unread_bookmarks_json))['items'].map { |item| item['a
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -640,21 +762,20 @@ print JSON.parse(File.read(Unread_bookmarks_json))['items'].map { |item| item['a
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
+				<key>argument</key>
 				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_unread</key>
+					<string>true</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</string>
+			<string>F575A0BC-7BDD-44EE-828A-AD3B6F1E074B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -712,6 +833,204 @@ show_bookmarks(All_bookmarks_json)</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>open_url</string>
+						<key>outputlabel</key>
+						<string>Open URL</string>
+						<key>uid</key>
+						<string>5A8BFFAE-6BF4-46B6-A1E5-B7E1069ABB07</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>view_tags</string>
+						<key>outputlabel</key>
+						<string>View Tags</string>
+						<key>uid</key>
+						<string>5B2D7299-0030-4015-B21A-A88AEF72B12A</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>view_description</string>
+						<key>outputlabel</key>
+						<string>View Description</string>
+						<key>uid</key>
+						<string>640D4BEC-29E1-4562-ABB4-289B61C5F44C</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>pinboard_site</string>
+						<key>outputlabel</key>
+						<string>Open in Pinboard</string>
+						<key>uid</key>
+						<string>78844A0F-A50E-4945-B008-118FFED81DC1</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>copy_url</string>
+						<key>outputlabel</key>
+						<string>Copy URL</string>
+						<key>uid</key>
+						<string>F572CB2A-7A72-4D91-9BCB-D6D37C3FEE2C</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>download_video</string>
+						<key>outputlabel</key>
+						<string>Download Video</string>
+						<key>uid</key>
+						<string>C9123165-8CFC-491E-AEE5-40C75DC58D3F</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>fetch_bookmarks</string>
+						<key>outputlabel</key>
+						<string>Fetch Bookmarks</string>
+						<key>uid</key>
+						<string>3D0CCE04-E56F-48DE-906A-F83FD8C309AB</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>6F415838-BBDD-460D-8389-C5292566442A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>require "#{Dir.pwd}/pinplus.rb"
+
+search_in_website(ARGV[0])</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>require "#{Dir.pwd}/pinplus.rb"
+
+action_unread(ENV['unread_action'], ARGV[0])</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0428362E-5C9C-4EB0-B5B2-470ABC9845E7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:is_unread}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string>MISSING_DOWNLOAD_MEDIA</string>
+						<key>outputlabel</key>
+						<string>Unread Bookmark</string>
+						<key>uid</key>
+						<string>EED64F19-BE23-4767-8EEB-AB7DA5278BFC</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>63BFE2ED-8406-43CD-8D9E-B92207F8F738</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -763,31 +1082,6 @@ show_bookmarks(Unread_bookmarks_json)</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>require "#{Dir.pwd}/pinplus.rb"
-
-action_unread(ENV['unread_action'], ARGV[0])</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>2</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>0428362E-5C9C-4EB0-B5B2-470ABC9845E7</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string>{query}</string>
 				<key>passthroughargument</key>
@@ -808,32 +1102,27 @@ action_unread(ENV['unread_action'], ARGV[0])</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:is_unread}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>5</integer>
-						<key>matchstring</key>
-						<string>MISSING_DOWNLOAD_MEDIA</string>
-						<key>outputlabel</key>
-						<string>Unread Bookmark</string>
-						<key>uid</key>
-						<string>EED64F19-BE23-4767-8EEB-AB7DA5278BFC</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
-				<true/>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>63BFE2ED-8406-43CD-8D9E-B92207F8F738</string>
+			<string>51173530-985F-468F-90DC-B37CC651F01A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.hidealfred</string>
+			<key>uid</key>
+			<string>700D9E72-F8D4-4DC2-8A5E-E78DD2A72A7A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -921,26 +1210,6 @@ function run(argv) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>is_unread</key>
-					<string>true</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>65AAB448-3013-42AB-A59B-A886A23A7B3C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -973,171 +1242,47 @@ function run(argv) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
+				<key>externaltriggerid</key>
+				<string>fetch_bookmarks</string>
+				<key>passinputasargument</key>
 				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
-			<string>955157E7-B3A9-4312-8A9E-F5AEE7D2CB6A</string>
+			<string>3D96CA77-D858-4A9D-88A1-96F3EA66673A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.hidealfred</string>
+			<key>uid</key>
+			<string>965BA49B-7AC1-43F3-8602-1F02FCC74695</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>require "#{Dir.pwd}/pinplus.rb"
-
-search_in_website(ARGV[0])</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>2</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>51173530-985F-468F-90DC-B37CC651F01A</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
-				<string>{query}</string>
+				<string></string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
 				<dict>
-					<key>is_unread</key>
+					<key>force_update</key>
 					<string>true</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>AC4A2ACA-CEFF-4C48-9B37-A39B17B934C4</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>require "#{Dir.pwd}/pinplus.rb"
-
-fetch_bookmarks(true)</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>2</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>0DF168C1-F23D-42AE-937F-D625877ED05D</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>:pinplusforceupdate</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Force Update of Pinboard Bookmarks</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>4FB6B196-D4A2-431D-B33C-E1DFB0A5A57F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>require "#{Dir.pwd}/pinplus.rb"
-
-fetch_bookmarks</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>2</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>E3D8770A-3517-4F4F-854A-7E88C2FA4E37</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>availableviaurlhandler</key>
-				<false/>
-				<key>triggerid</key>
-				<string>fetch_bookmarks</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>EF339515-CFD8-47BF-B208-FF9DCA32A2C1</string>
+			<string>D38647F8-612B-4C9F-BE63-8F4B3D60EB74</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1151,20 +1296,13 @@ Add a new bookmark to your [Pinboard](https://pinboard.in) account via the Add N
 
 ![Browser GUI to add bookmark](images/about/gui.png)
 
-Search all bookmarks with the Show All Keyword (default: `pin`) or only the unread ones via the Show Unread Keyword (default: `pun`). Actioning an unread bookmark can archive or delete it if the option is set in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
+Search all bookmarks with the Show All Keyword (default: `pin`) or only the unread ones via the Show Unread Keyword (default: `pun`). Actioning an unread bookmark can archive or delete it if the option is set in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/), where you can also set the actions for each &lt;kbd&gt;↩&lt;/kbd&gt; modifier.
 
 ![Showing bookmarks matching alfr](images/about/pin.png)
 
-* &lt;kbd&gt;↩&lt;/kbd&gt;: Open in web browser.
-* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Open on Pinboard’s website.
-* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Copy URL.
-* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Download the video on the page. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
-* &lt;kbd&gt;⌃&lt;/kbd&gt;: Show tags.
-* &lt;kbd&gt;fn&lt;/kbd&gt;: Show description.
-
 Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as a shortcut to add bookmarks, add the current browser tab as an unread bookmark, or open a random unread bookmark.
 
-Bookmarks are refetched if the local data is old. If necessary, an immediate cache rebuild can be forced with the `:pinplusforceupdate` keyword.</string>
+Bookmarks are automatically refetched if the local data is old, but an update can be forced with &lt;kbd&gt;fn&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;.</string>
 	<key>uidata</key>
 	<dict>
 		<key>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</key>
@@ -1172,41 +1310,34 @@ Bookmarks are refetched if the local data is old. If necessary, an immediate cac
 			<key>note</key>
 			<string>Get URL to search user’s account</string>
 			<key>xpos</key>
-			<real>450</real>
+			<real>645</real>
 			<key>ypos</key>
-			<real>1070</real>
+			<real>810</real>
 		</dict>
 		<key>0428362E-5C9C-4EB0-B5B2-470ABC9845E7</key>
 		<dict>
 			<key>note</key>
 			<string>Run unread action</string>
 			<key>xpos</key>
-			<real>755</real>
+			<real>950</real>
 			<key>ypos</key>
-			<real>740</real>
-		</dict>
-		<key>0DF168C1-F23D-42AE-937F-D625877ED05D</key>
-		<dict>
-			<key>xpos</key>
-			<real>240</real>
-			<key>ypos</key>
-			<real>1370</real>
+			<real>810</real>
 		</dict>
 		<key>1B064314-76EC-4BF6-B361-A58A329A9C66</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>xpos</key>
-			<real>680</real>
+			<real>875</real>
 			<key>ypos</key>
-			<real>930</real>
+			<real>1145</real>
 		</dict>
 		<key>2B67AFF0-0412-4E9B-88CE-ADF345434F52</key>
 		<dict>
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>610</real>
+			<real>745</real>
 		</dict>
 		<key>312A5A83-445F-49A9-91E3-5E65184C33B9</key>
 		<dict>
@@ -1215,60 +1346,67 @@ Bookmarks are refetched if the local data is old. If necessary, an immediate cac
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>295</real>
+			<real>430</real>
 		</dict>
 		<key>348262A6-0298-49B4-A582-AF48C527E471</key>
 		<dict>
 			<key>xpos</key>
 			<real>240</real>
 			<key>ypos</key>
-			<real>295</real>
+			<real>430</real>
 		</dict>
-		<key>4FB6B196-D4A2-431D-B33C-E1DFB0A5A57F</key>
+		<key>3D96CA77-D858-4A9D-88A1-96F3EA66673A</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>645</real>
 			<key>ypos</key>
-			<real>1370</real>
+			<real>1285</real>
 		</dict>
 		<key>51173530-985F-468F-90DC-B37CC651F01A</key>
 		<dict>
 			<key>xpos</key>
-			<real>450</real>
+			<real>645</real>
 			<key>ypos</key>
-			<real>1240</real>
+			<real>975</real>
 		</dict>
 		<key>5E0D7D4C-CE5C-4E87-846B-054F185D32D7</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>xpos</key>
-			<real>755</real>
+			<real>950</real>
 			<key>ypos</key>
-			<real>920</real>
+			<real>1135</real>
 		</dict>
 		<key>63BFE2ED-8406-43CD-8D9E-B92207F8F738</key>
 		<dict>
 			<key>xpos</key>
-			<real>680</real>
+			<real>875</real>
 			<key>ypos</key>
-			<real>770</real>
+			<real>840</real>
 		</dict>
-		<key>65AAB448-3013-42AB-A59B-A886A23A7B3C</key>
+		<key>6F415838-BBDD-460D-8389-C5292566442A</key>
 		<dict>
 			<key>xpos</key>
-			<real>360</real>
+			<real>395</real>
 			<key>ypos</key>
-			<real>930</real>
+			<real>755</real>
+		</dict>
+		<key>700D9E72-F8D4-4DC2-8A5E-E78DD2A72A7A</key>
+		<dict>
+			<key>xpos</key>
+			<real>875</real>
+			<key>ypos</key>
+			<real>1005</real>
 		</dict>
 		<key>7FB43A68-C343-4F70-9C00-537C821140A2</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>xpos</key>
-			<real>920</real>
+			<real>1115</real>
 			<key>ypos</key>
-			<real>900</real>
+			<real>1115</real>
 		</dict>
 		<key>8DC58A3C-6774-4B9F-BC7D-0891C9A648F4</key>
 		<dict>
@@ -1277,16 +1415,14 @@ Bookmarks are refetched if the local data is old. If necessary, an immediate cac
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>150</real>
+			<real>285</real>
 		</dict>
-		<key>955157E7-B3A9-4312-8A9E-F5AEE7D2CB6A</key>
+		<key>965BA49B-7AC1-43F3-8602-1F02FCC74695</key>
 		<dict>
-			<key>note</key>
-			<string>Open bookmark on Pinboard’s site</string>
 			<key>xpos</key>
-			<real>755</real>
+			<real>465</real>
 			<key>ypos</key>
-			<real>1070</real>
+			<real>1315</real>
 		</dict>
 		<key>96E1CC1B-3F76-4961-9E26-5B3D2BD1D122</key>
 		<dict>
@@ -1295,51 +1431,53 @@ Bookmarks are refetched if the local data is old. If necessary, an immediate cac
 			<key>xpos</key>
 			<real>240</real>
 			<key>ypos</key>
-			<real>20</real>
+			<real>155</real>
 		</dict>
 		<key>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</key>
 		<dict>
 			<key>xpos</key>
-			<real>450</real>
+			<real>645</real>
 			<key>ypos</key>
-			<real>610</real>
+			<real>590</real>
 		</dict>
 		<key>A47E38E8-87FB-42B7-A966-4CFC5B0798FF</key>
 		<dict>
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>20</real>
-		</dict>
-		<key>AC4A2ACA-CEFF-4C48-9B37-A39B17B934C4</key>
-		<dict>
-			<key>xpos</key>
-			<real>360</real>
-			<key>ypos</key>
-			<real>1270</real>
+			<real>155</real>
 		</dict>
 		<key>BBA7D5B8-BDF1-4669-B928-461708E18DDF</key>
 		<dict>
 			<key>xpos</key>
-			<real>360</real>
+			<real>245</real>
 			<key>ypos</key>
-			<real>770</real>
+			<real>905</real>
+		</dict>
+		<key>D38647F8-612B-4C9F-BE63-8F4B3D60EB74</key>
+		<dict>
+			<key>note</key>
+			<string>Force update</string>
+			<key>xpos</key>
+			<real>555</real>
+			<key>ypos</key>
+			<real>1315</real>
 		</dict>
 		<key>DC6DE0A7-2311-4F8C-A1A8-457DC074F1EA</key>
 		<dict>
 			<key>xpos</key>
 			<real>240</real>
 			<key>ypos</key>
-			<real>455</real>
+			<real>590</real>
 		</dict>
 		<key>DD770517-8DE4-4374-AF73-7186420C0978</key>
 		<dict>
 			<key>note</key>
 			<string>launchd agent</string>
 			<key>xpos</key>
-			<real>755</real>
+			<real>645</real>
 			<key>ypos</key>
-			<real>20</real>
+			<real>155</real>
 		</dict>
 		<key>E38BE1A6-B024-4637-9693-8AE05B8600CD</key>
 		<dict>
@@ -1348,23 +1486,23 @@ Bookmarks are refetched if the local data is old. If necessary, an immediate cac
 			<key>note</key>
 			<string>Download video with Download Media</string>
 			<key>xpos</key>
-			<real>450</real>
+			<real>645</real>
 			<key>ypos</key>
-			<real>900</real>
+			<real>1115</real>
 		</dict>
 		<key>E3D8770A-3517-4F4F-854A-7E88C2FA4E37</key>
 		<dict>
 			<key>xpos</key>
 			<real>240</real>
 			<key>ypos</key>
-			<real>1495</real>
+			<real>25</real>
 		</dict>
 		<key>EF339515-CFD8-47BF-B208-FF9DCA32A2C1</key>
 		<dict>
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>1495</real>
+			<real>25</real>
 		</dict>
 		<key>EFCEA4B6-8BAA-4509-AD10-EDA3CF3DF3EB</key>
 		<dict>
@@ -1373,14 +1511,21 @@ Bookmarks are refetched if the local data is old. If necessary, an immediate cac
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>455</real>
+			<real>590</real>
+		</dict>
+		<key>F575A0BC-7BDD-44EE-828A-AD3B6F1E074B</key>
+		<dict>
+			<key>xpos</key>
+			<real>395</real>
+			<key>ypos</key>
+			<real>620</real>
 		</dict>
 		<key>FA9C9F80-EFDB-4A12-AA7A-DC5D0F76E557</key>
 		<dict>
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>740</real>
+			<real>875</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -1440,13 +1585,223 @@ Bookmarks are refetched if the local data is old. If necessary, an immediate cac
 				<true/>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>Keywords to interact with bookmarks.</string>
 			<key>label</key>
 			<string>Show Unread Keyword</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
 			<string>show_unread_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>open_url</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Open URL</string>
+						<string>open_url</string>
+					</array>
+					<array>
+						<string>Copy URL</string>
+						<string>copy_url</string>
+					</array>
+					<array>
+						<string>View Tags</string>
+						<string>view_tags</string>
+					</array>
+					<array>
+						<string>View Description</string>
+						<string>view_description</string>
+					</array>
+					<array>
+						<string>Open in Pinboard</string>
+						<string>pinboard_site</string>
+					</array>
+					<array>
+						<string>Download Video</string>
+						<string>download_video</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>↩</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>mod_none</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>copy_url</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Open URL</string>
+						<string>open_url</string>
+					</array>
+					<array>
+						<string>Copy URL</string>
+						<string>copy_url</string>
+					</array>
+					<array>
+						<string>View Tags</string>
+						<string>view_tags</string>
+					</array>
+					<array>
+						<string>View Description</string>
+						<string>view_description</string>
+					</array>
+					<array>
+						<string>Open in Pinboard</string>
+						<string>pinboard_site</string>
+					</array>
+					<array>
+						<string>Download Video</string>
+						<string>download_video</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>⌘</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>mod_cmd</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>view_tags</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Open URL</string>
+						<string>open_url</string>
+					</array>
+					<array>
+						<string>Copy URL</string>
+						<string>copy_url</string>
+					</array>
+					<array>
+						<string>View Tags</string>
+						<string>view_tags</string>
+					</array>
+					<array>
+						<string>View Description</string>
+						<string>view_description</string>
+					</array>
+					<array>
+						<string>Open in Pinboard</string>
+						<string>pinboard_site</string>
+					</array>
+					<array>
+						<string>Download Video</string>
+						<string>download_video</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>⌥</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>mod_alt</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>view_description</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Open URL</string>
+						<string>open_url</string>
+					</array>
+					<array>
+						<string>Copy URL</string>
+						<string>copy_url</string>
+					</array>
+					<array>
+						<string>View Tags</string>
+						<string>view_tags</string>
+					</array>
+					<array>
+						<string>View Description</string>
+						<string>view_description</string>
+					</array>
+					<array>
+						<string>Open in Pinboard</string>
+						<string>pinboard_site</string>
+					</array>
+					<array>
+						<string>Download Video</string>
+						<string>download_video</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>⌃</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>mod_ctrl</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>pinboard_site</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Open URL</string>
+						<string>open_url</string>
+					</array>
+					<array>
+						<string>Copy URL</string>
+						<string>copy_url</string>
+					</array>
+					<array>
+						<string>View Tags</string>
+						<string>view_tags</string>
+					</array>
+					<array>
+						<string>View Description</string>
+						<string>view_description</string>
+					</array>
+					<array>
+						<string>Open in Pinboard</string>
+						<string>pinboard_site</string>
+					</array>
+					<array>
+						<string>Download Video</string>
+						<string>download_video</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Actions to perform when pressing a modifier key.</string>
+			<key>label</key>
+			<string>⇧</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>mod_shift</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1539,7 +1894,7 @@ Bookmarks are refetched if the local data is old. If necessary, an immediate cac
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2022.3</string>
+	<string>2023.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/pin-plus-workflow/</string>
 </dict>

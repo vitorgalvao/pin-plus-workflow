@@ -12,17 +12,10 @@ Add a new bookmark to your [Pinboard](https://pinboard.in) account via the Add N
 
 ![Browser GUI to add bookmark](Workflow/images/about/gui.png)
 
-Search all bookmarks with the Show All Keyword (default: `pin`) or only the unread ones via the Show Unread Keyword (default: `pun`). Actioning an unread bookmark can archive or delete it if the option is set in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
+Search all bookmarks with the Show All Keyword (default: `pin`) or only the unread ones via the Show Unread Keyword (default: `pun`). Actioning an unread bookmark can archive or delete it if the option is set in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/), where you can also set the actions for each <kbd>↩&#xFE0E;</kbd> modifier.
 
 ![Showing bookmarks matching alfr](Workflow/images/about/pin.png)
 
-* <kbd>⏎</kbd>: Open in web browser.
-* <kbd>⇧</kbd><kbd>⏎</kbd>: Open on Pinboard’s website.
-* <kbd>⌥</kbd><kbd>⏎</kbd>: Copy URL.
-* <kbd>⌘</kbd><kbd>⏎</kbd>: Download the video on the page. Requires [Download Media](https://alfred.app/workflows/vitor/download-media/).
-* <kbd>⌃</kbd>: Show tags.
-* <kbd>fn</kbd>: Show description.
-
 Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as a shortcut to add bookmarks, add the current browser tab as an unread bookmark, or open a random unread bookmark.
 
-Bookmarks are refetched if the local data is old. If necessary, an immediate cache rebuild can be forced with the `:pinplusforceupdate` keyword.
+Bookmarks are automatically refetched if the local data is old, but an update can be forced with <kbd>fn</kbd><kbd>↩&#xFE0E;</kbd>.
