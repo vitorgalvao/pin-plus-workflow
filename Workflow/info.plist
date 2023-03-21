@@ -1902,7 +1902,7 @@ Bookmarks are automatically fetched if the local data is old, but an update can 
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2023.1</string>
+	<string>2023.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/pin-plus-workflow/</string>
 </dict>
