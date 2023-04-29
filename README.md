@@ -18,10 +18,10 @@ Search all bookmarks via the `pin` keyword or only the unread ones with `pun`. A
 
 * <kbd>↩&#xFE0E;</kbd>: Open URL.
 * <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd>: Copy URL.
-* <kbd>⌥</kbd><kbd>↩&#xFE0E;</kbd>: View Tags.
-* <kbd>⌃</kbd><kbd>↩&#xFE0E;</kbd>: View Description.
+* <kbd>⌥</kbd>: View Tags.
+* <kbd>⌃</kbd>: View Description.
 * <kbd>⇧</kbd><kbd>↩&#xFE0E;</kbd>: Open in Pinboard’s Website.
 
 Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as a shortcut to add bookmarks, add the current browser tab as an unread bookmark, or open a random unread bookmark.
 
-Bookmarks are automatically fetched if the local data is old, but an update can be forced with <kbd>fn</kbd><kbd>↩&#xFE0E;</kbd>.
+Bookmarks are automatically fetched if the local data is old, but an update can be forced with <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⌃</kbd><kbd>↩&#xFE0E;</kbd>.
