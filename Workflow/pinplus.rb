@@ -152,7 +152,7 @@ def write_bookmarks(bookmarks, bookmarks_file, skip_knowledge)
       alt: actions[ENV['mod_alt'].to_sym],
       ctrl: actions[ENV['mod_ctrl'].to_sym],
       shift: actions[ENV['mod_shift'].to_sym],
-      fn: { variables: { action: 'fetch_bookmarks' }, subtitle: 'Force Cache Update' }
+      'cmd+alt+ctrl': { variables: { action: 'fetch_bookmarks' }, subtitle: 'Force Cache Update' }
     }
 
     items.push({

@@ -1304,13 +1304,13 @@ Search all bookmarks via the `pin` keyword or only the unread ones with `pun`. A
 
 * &lt;kbd&gt;↩&lt;/kbd&gt;: Open URL.
 * &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Copy URL.
-* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: View Tags.
-* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: View Description.
+* &lt;kbd&gt;⌥&lt;/kbd&gt;: View Tags.
+* &lt;kbd&gt;⌃&lt;/kbd&gt;: View Description.
 * &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Open in Pinboard’s Website.
 
 Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as a shortcut to add bookmarks, add the current browser tab as an unread bookmark, or open a random unread bookmark.
 
-Bookmarks are automatically fetched if the local data is old, but an update can be forced with &lt;kbd&gt;fn&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;.</string>
+Bookmarks are automatically fetched if the local data is old, but an update can be forced with &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;.</string>
 	<key>uidata</key>
 	<dict>
 		<key>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</key>
@@ -1803,7 +1803,8 @@ Bookmarks are automatically fetched if the local data is old, but an update can 
 				</array>
 			</dict>
 			<key>description</key>
-			<string>Actions to perform when pressing a modifier key.</string>
+			<string>Actions to perform when pressing modifier keys.
+Changes come into effect on next cache update.</string>
 			<key>label</key>
 			<string>⇧</string>
 			<key>type</key>
