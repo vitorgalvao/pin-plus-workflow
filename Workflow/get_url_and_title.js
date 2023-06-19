@@ -1,19 +1,15 @@
 #!/usr/bin/osascript -l JavaScript
 
-const frontmostAppName = Application("System Events").applicationProcesses.where({ frontmost: true }).name()[0]
-const frontmostApp = Application(frontmostAppName)
+const frontAppName = Application("System Events").applicationProcesses.where({ frontmost: true }).name()[0]
+const frontApp = Application(frontAppName)
 
-const chromiumVariants = ["Google Chrome", "Chromium", "Opera", "Vivaldi", "Brave Browser", "Microsoft Edge", "Arc"]
 const webkitVariants = ["Safari", "Webkit", "Orion"]
+const chromiumVariants = ["Google Chrome", "Chromium", "Opera", "Vivaldi", "Brave Browser", "Microsoft Edge", "Arc"]
 
-if (chromiumVariants.some(appName => frontmostAppName.startsWith(appName))) {
-  var currentTabTitle = frontmostApp.windows[0].activeTab.name()
-  var currentTabURL = frontmostApp.windows[0].activeTab.url()
-} else if (webkitVariants.some(appName => frontmostAppName.startsWith(appName))) {
-  var currentTabTitle = frontmostApp.windows[0].currentTab.name()
-  var currentTabURL = frontmostApp.windows[0].currentTab.url()
+if (webkitVariants.some(appName => frontAppName.startsWith(appName))) {
+  frontApp.windows[0].currentTab.url() + "\t" + frontApp.windows[0].currentTab.name()
+} else if (chromiumVariants.some(appName => frontAppName.startsWith(appName))) {
+  frontApp.windows[0].activeTab.url() + "\t" + frontApp.windows[0].activeTab.name()
 } else {
-  throw new Error("You need a supported browser as your frontmost app")
+  throw new Error(`${frontAppName} is not a supported browser: ${webkitVariants.concat(chromiumVariants).join(", ")}`)
 }
-
-currentTabURL + "|" + currentTabTitle
