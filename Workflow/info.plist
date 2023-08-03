@@ -213,11 +213,24 @@
 				<false/>
 			</dict>
 		</array>
+		<key>746C53B7-21CF-4B6D-8557-54523EA81DF4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DD770517-8DE4-4374-AF73-7186420C0978</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>8DC58A3C-6774-4B9F-BC7D-0891C9A648F4</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>96E1CC1B-3F76-4961-9E26-5B3D2BD1D122</string>
+				<string>746C53B7-21CF-4B6D-8557-54523EA81DF4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -231,19 +244,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>D38647F8-612B-4C9F-BE63-8F4B3D60EB74</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>96E1CC1B-3F76-4961-9E26-5B3D2BD1D122</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DD770517-8DE4-4374-AF73-7186420C0978</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -279,7 +279,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>96E1CC1B-3F76-4961-9E26-5B3D2BD1D122</string>
+				<string>746C53B7-21CF-4B6D-8557-54523EA81DF4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -471,29 +471,6 @@ ENV['force_update'] == "true" ? fetch_bookmarks(true) : fetch_bookmarks</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>run_bookmarklet.js</string>
-				<key>type</key>
-				<integer>8</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>96E1CC1B-3F76-4961-9E26-5B3D2BD1D122</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -509,6 +486,24 @@ ENV['force_update'] == "true" ? fetch_bookmarks(true) : fetch_bookmarks</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>A47E38E8-87FB-42B7-A966-4CFC5B0798FF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>javascript_code</key>
+					<string>q=location.href;if(document.getSelection){d=document.getSelection();}else{d='';};p=document.title;void(open('https://pinboard.in/add?showtags=yes&amp;url='+encodeURIComponent(q)+'&amp;description='+encodeURIComponent(d)+'&amp;title='+encodeURIComponent(p),'Pinboard','toolbar=no,scrollbars=yes,width=750,height=700'));</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.extras/web-browsers/frontmost-browser/frontmost.tabs.current.run.javascript</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>746C53B7-21CF-4B6D-8557-54523EA81DF4</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1407,6 +1402,15 @@ Bookmarks are automatically fetched if the local data is old, but an update can 
 			<key>ypos</key>
 			<real>1005</real>
 		</dict>
+		<key>746C53B7-21CF-4B6D-8557-54523EA81DF4</key>
+		<dict>
+			<key>note</key>
+			<string>Open GUI to add bookmark</string>
+			<key>xpos</key>
+			<real>240</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
 		<key>7FB43A68-C343-4F70-9C00-537C821140A2</key>
 		<dict>
 			<key>colorindex</key>
@@ -1431,15 +1435,6 @@ Bookmarks are automatically fetched if the local data is old, but an update can 
 			<real>465</real>
 			<key>ypos</key>
 			<real>1315</real>
-		</dict>
-		<key>96E1CC1B-3F76-4961-9E26-5B3D2BD1D122</key>
-		<dict>
-			<key>note</key>
-			<string>Open GUI to add bookmark</string>
-			<key>xpos</key>
-			<real>240</real>
-			<key>ypos</key>
-			<real>155</real>
 		</dict>
 		<key>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</key>
 		<dict>
