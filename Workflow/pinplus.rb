@@ -27,17 +27,7 @@ def error(message)
   abort(message)
 end
 
-def grab_url_title
-  url, title = Open3.capture2("#{Dir.pwd}/get_url_and_title.js", '--').first.strip.split("\t") # Second dummy argument is to not require shellescaping single argument
-
-  error('You need a supported web browser as your frontmost app.') if url.nil?
-  title ||= url # For pages without a title tag
-
-  [url, title]
-end
-
-def add_unread
-  url, title = grab_url_title
+def add_unread(url, title)
   success_sound
   notification(url, title)
 

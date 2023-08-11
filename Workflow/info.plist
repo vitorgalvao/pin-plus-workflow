@@ -51,7 +51,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>348262A6-0298-49B4-A582-AF48C527E471</string>
+				<string>9066848D-DBFB-4B04-954A-D0F998360A39</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -239,6 +239,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>9066848D-DBFB-4B04-954A-D0F998360A39</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BF585652-D2BD-4906-BEB9-0AC2A215899A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>965BA49B-7AC1-43F3-8602-1F02FCC74695</key>
 		<array>
 			<dict>
@@ -293,6 +306,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>6F415838-BBDD-460D-8389-C5292566442A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BF585652-D2BD-4906-BEB9-0AC2A215899A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>348262A6-0298-49B4-A582-AF48C527E471</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -634,7 +660,7 @@ fi</string>
 				<key>script</key>
 				<string>require "#{Dir.pwd}/pinplus.rb"
 
-add_unread</string>
+add_unread(ARGV[0], ARGV[1])</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -679,6 +705,45 @@ add_unread</string>
 			<string>312A5A83-445F-49A9-91E3-5E65184C33B9</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>out_format</key>
+					<string>url_tab_title</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.extras/web-browsers/frontmost-browser/frontmost.tabs.current</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>9066848D-DBFB-4B04-954A-D0F998360A39</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>	</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>1</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>BF585652-D2BD-4906-BEB9-0AC2A215899A</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1354,7 +1419,7 @@ Bookmarks are automatically fetched if the local data is old, but an update can 
 		<key>348262A6-0298-49B4-A582-AF48C527E471</key>
 		<dict>
 			<key>xpos</key>
-			<real>240</real>
+			<real>475</real>
 			<key>ypos</key>
 			<real>430</real>
 		</dict>
@@ -1429,6 +1494,13 @@ Bookmarks are automatically fetched if the local data is old, but an update can 
 			<key>ypos</key>
 			<real>285</real>
 		</dict>
+		<key>9066848D-DBFB-4B04-954A-D0F998360A39</key>
+		<dict>
+			<key>xpos</key>
+			<real>240</real>
+			<key>ypos</key>
+			<real>430</real>
+		</dict>
 		<key>965BA49B-7AC1-43F3-8602-1F02FCC74695</key>
 		<dict>
 			<key>xpos</key>
@@ -1456,6 +1528,13 @@ Bookmarks are automatically fetched if the local data is old, but an update can 
 			<real>245</real>
 			<key>ypos</key>
 			<real>905</real>
+		</dict>
+		<key>BF585652-D2BD-4906-BEB9-0AC2A215899A</key>
+		<dict>
+			<key>xpos</key>
+			<real>395</real>
+			<key>ypos</key>
+			<real>460</real>
 		</dict>
 		<key>D38647F8-612B-4C9F-BE63-8F4B3D60EB74</key>
 		<dict>
