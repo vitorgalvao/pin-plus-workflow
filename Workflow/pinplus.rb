@@ -146,6 +146,7 @@ def write_bookmarks(bookmarks, bookmarks_file, skip_knowledge)
     }
 
     items.push({
+      variables: { action: ENV['mod_none'] },
       uid: bookmark['href'],
       title: bookmark['description'],
       subtitle: bookmark['href'],
@@ -156,7 +157,6 @@ def write_bookmarks(bookmarks, bookmarks_file, skip_knowledge)
   end
 
   File.write(bookmarks_file, {
-    variables: { action: ENV['mod_none'] },
     skipknowledge: skip_knowledge,
     items: sf_items
   }.to_json)
