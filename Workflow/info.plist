@@ -1071,7 +1071,7 @@ action_unread(ENV['unread_action'], ARGV[0])</string>
 						<key>matchmode</key>
 						<integer>5</integer>
 						<key>matchstring</key>
-						<string>MISSING_DOWNLOAD_MEDIA</string>
+						<string></string>
 						<key>outputlabel</key>
 						<string>Unread Bookmark</string>
 						<key>uid</key>
@@ -1924,12 +1924,12 @@ Changes come into effect on next cache update.</string>
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Uncheck to sort by oldest</string>
+				<string>Sort Unread by Newest</string>
 			</dict>
 			<key>description</key>
 			<string></string>
 			<key>label</key>
-			<string>Sort Unread by Newest</string>
+			<string>Unread Sorting</string>
 			<key>type</key>
 			<string>checkbox</string>
 			<key>variable</key>
