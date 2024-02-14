@@ -1181,6 +1181,11 @@ show_bookmarks(Unread_bookmarks_json)</string>
 			<integer>3</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>unstackview</key>
+				<false/>
+			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.hidealfred</string>
 			<key>uid</key>
@@ -1321,6 +1326,11 @@ function run(argv) {
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>unstackview</key>
+				<false/>
+			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.hidealfred</string>
 			<key>uid</key>
@@ -1362,11 +1372,11 @@ Search all bookmarks via the `pin` keyword or only the unread ones with `pun`. A
 
 ![Showing bookmarks matching alfr](images/about/pin.png)
 
-* &lt;kbd&gt;↩&lt;/kbd&gt;: Open URL.
-* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Copy URL.
-* &lt;kbd&gt;⌥&lt;/kbd&gt;: View Tags.
-* &lt;kbd&gt;⌃&lt;/kbd&gt;: View Description.
-* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Open in Pinboard’s Website.
+* &lt;kbd&gt;↩&lt;/kbd&gt; Open URL.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy URL.
+* &lt;kbd&gt;⌥&lt;/kbd&gt; View Tags.
+* &lt;kbd&gt;⌃&lt;/kbd&gt; View Description.
+* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Open in Pinboard’s Website.
 
 Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as a shortcut to add bookmarks, add the current browser tab as an unread bookmark, or open a random unread bookmark.
 
