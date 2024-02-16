@@ -501,6 +501,8 @@ ENV['force_update'] == "true" ? fetch_bookmarks(true) : fetch_bookmarks</string>
 				<integer>2</integer>
 				<key>keyword</key>
 				<string>{var:add_new_keyword}</string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>Call a GUI to add a bookmark</string>
 				<key>text</key>
@@ -876,6 +878,8 @@ show_bookmarks(All_bookmarks_json)</string>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -1125,6 +1129,8 @@ show_bookmarks(Unread_bookmarks_json)</string>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
