@@ -883,7 +883,7 @@ show_bookmarks(All_bookmarks_json)</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Show All bookmarks</string>
+				<string>Show All Bookmarks</string>
 				<key>type</key>
 				<integer>2</integer>
 				<key>withspace</key>
