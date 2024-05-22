@@ -61,18 +61,7 @@
 			</dict>
 		</array>
 		<key>348262A6-0298-49B4-A582-AF48C527E471</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DD770517-8DE4-4374-AF73-7186420C0978</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>51173530-985F-468F-90DC-B37CC651F01A</key>
 		<array>
 			<dict>
@@ -214,18 +203,7 @@
 			</dict>
 		</array>
 		<key>746C53B7-21CF-4B6D-8557-54523EA81DF4</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DD770517-8DE4-4374-AF73-7186420C0978</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>8DC58A3C-6774-4B9F-BC7D-0891C9A648F4</key>
 		<array>
 			<dict>
@@ -256,7 +234,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D38647F8-612B-4C9F-BE63-8F4B3D60EB74</string>
+				<string>D0C612E1-159B-4476-8920-0DCF4A15DAD8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -267,16 +245,6 @@
 		</array>
 		<key>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</key>
 		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DD770517-8DE4-4374-AF73-7186420C0978</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>63BFE2ED-8406-43CD-8D9E-B92207F8F738</string>
@@ -327,11 +295,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>D38647F8-612B-4C9F-BE63-8F4B3D60EB74</key>
+		<key>D0C612E1-159B-4476-8920-0DCF4A15DAD8</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3D96CA77-D858-4A9D-88A1-96F3EA66673A</string>
+				<string>7DF82435-3D0E-43E4-BF16-87752A30CB06</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -353,8 +321,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>DD770517-8DE4-4374-AF73-7186420C0978</key>
-		<array/>
 		<key>E38BE1A6-B024-4637-9693-8AE05B8600CD</key>
 		<array>
 			<dict>
@@ -370,32 +336,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1B064314-76EC-4BF6-B361-A58A329A9C66</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>E3D8770A-3517-4F4F-854A-7E88C2FA4E37</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DD770517-8DE4-4374-AF73-7186420C0978</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>EF339515-CFD8-47BF-B208-FF9DCA32A2C1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>E3D8770A-3517-4F4F-854A-7E88C2FA4E37</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -457,46 +397,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>require "#{Dir.pwd}/pinplus.rb"
-
-ENV['force_update'] == "true" ? fetch_bookmarks(true) : fetch_bookmarks</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>2</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>E3D8770A-3517-4F4F-854A-7E88C2FA4E37</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>availableviaurlhandler</key>
-				<false/>
-				<key>triggerid</key>
-				<string>fetch_bookmarks</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>EF339515-CFD8-47BF-B208-FF9DCA32A2C1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -534,94 +434,6 @@ ENV['force_update'] == "true" ? fetch_bookmarks(true) : fetch_bookmarks</string>
 			<string>746C53B7-21CF-4B6D-8557-54523EA81DF4</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string># Checks
-if [[ -z "${alfred_workflow_bundleid}" ]]; then
-  echo 'Workflow is missing bundle identifier!' &gt;&amp;2
-  exit 1
-fi
-
-# Plist contents
-read -r -d '' plist_contents &lt;&lt;ENDPLIST
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
-&lt;plist version="1.0"&gt;
-&lt;dict&gt;
-    &lt;key&gt;Label&lt;/key&gt;
-    &lt;string&gt;${alfred_workflow_bundleid}&lt;/string&gt;
-    &lt;key&gt;ProgramArguments&lt;/key&gt;
-    &lt;array&gt;
-        &lt;string&gt;/usr/bin/osascript&lt;/string&gt;
-        &lt;string&gt;-l&lt;/string&gt;
-        &lt;string&gt;JavaScript&lt;/string&gt;
-        &lt;string&gt;-e&lt;/string&gt;
-        &lt;string&gt;
-          function run(argv) {
-            try {
-              const alfred = Application(&amp;quot;com.runningwithcrayons.Alfred&amp;quot;)
-              if (alfred.running()) alfred.runTrigger(argv[1], { inWorkflow: argv[0] })
-            } catch {
-              const fileManager = $.NSFileManager.defaultManager
-              const plistFile = fileManager.homeDirectoryForCurrentUser.path.js + &amp;quot;/Library/LaunchAgents/&amp;quot; + argv[0] + &amp;quot;.plist&amp;quot;
-              fileManager.removeItemAtPathError(plistFile, undefined)
-            }
-          }
-        &lt;/string&gt;
-        &lt;string&gt;${alfred_workflow_bundleid}&lt;/string&gt;
-        &lt;string&gt;fetch_bookmarks&lt;/string&gt;
-    &lt;/array&gt;
-    &lt;key&gt;RunAtLoad&lt;/key&gt;
-    &lt;true/&gt;
-    &lt;key&gt;StartCalendarInterval&lt;/key&gt;
-    &lt;dict&gt;
-        &lt;key&gt;Minute&lt;/key&gt;
-        &lt;integer&gt;0&lt;/integer&gt;
-    &lt;/dict&gt;
-&lt;/dict&gt;
-&lt;/plist&gt;
-ENDPLIST
-
-# Main
-readonly launchagents_dir="${HOME}/Library/LaunchAgents"
-readonly plist_file="${launchagents_dir}/${alfred_workflow_bundleid}.plist"
-
-if [[ "${auto_refresh}" -eq 0 ]]; then
-  # Exit early if plist does not exist
-  [[ -f "${plist_file}" ]] || exit 0
-
-  # Uninstall agent
-  launchctl bootout "gui/$(id -u "${USER}")" "${plist_file}"
-  rm "${plist_file}"
-else
-  # Exit early if plist exists
-  [[ -f "${plist_file}" ]] &amp;&amp; exit 0
-
-  # Install agent
-  mkdir -p "${launchagents_dir}"
-  echo "${plist_contents}" &gt; "${plist_file}"
-  launchctl bootstrap "gui/$(id -u "${USER}")" "${plist_file}"
-fi</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>11</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>DD770517-8DE4-4374-AF73-7186420C0978</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -889,6 +701,13 @@ show_bookmarks(All_bookmarks_json)</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>all_bookmarks</string>
+				<key>inputmode</key>
+				<integer>1</integer>
+			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
@@ -1140,6 +959,13 @@ show_bookmarks(Unread_bookmarks_json)</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>unread_bookmarks</string>
+				<key>inputmode</key>
+				<integer>1</integer>
+			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
@@ -1157,7 +983,7 @@ show_bookmarks(Unread_bookmarks_json)</string>
 				<key>variables</key>
 				<dict>
 					<key>is_unread</key>
-					<string>true</string>
+					<string>1</string>
 				</dict>
 			</dict>
 			<key>type</key>
@@ -1315,21 +1141,57 @@ function run(argv) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>externaltriggerid</key>
-				<string>fetch_bookmarks</string>
-				<key>passinputasargument</key>
-				<false/>
-				<key>passvariables</key>
-				<true/>
-				<key>workflowbundleid</key>
-				<string>self</string>
+				<key>tasksettings</key>
+				<dict>
+					<key>target_path</key>
+					<string>{const:alfred_workflow_cache}</string>
+					<key>use_finder</key>
+					<false/>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/path.trash</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
+			<string>alfred.workflow.automation.task</string>
 			<key>uid</key>
-			<string>3D96CA77-D858-4A9D-88A1-96F3EA66673A</string>
+			<string>D0C612E1-159B-4476-8920-0DCF4A15DAD8</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>set bundleid to (system attribute "alfred_workflow_bundleid")
+
+-- Flush caches
+tell application id "com.runningwithcrayons.Alfred" to reload workflow bundleid
+
+-- Reopen Script Filter which initiated the flush
+if ((system attribute "is_unread") is "1") then
+  set bookmarkstype to "unread_bookmarks"
+else
+  set bookmarkstype to "all_bookmarks"
+end if
+
+tell application id "com.runningwithcrayons.Alfred" to run trigger bookmarkstype in workflow bundleid</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7DF82435-3D0E-43E4-BF16-87752A30CB06</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1341,26 +1203,6 @@ function run(argv) {
 			<string>alfred.workflow.utility.hidealfred</string>
 			<key>uid</key>
 			<string>965BA49B-7AC1-43F3-8602-1F02FCC74695</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>force_update</key>
-					<string>true</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>D38647F8-612B-4C9F-BE63-8F4B3D60EB74</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1383,10 +1225,9 @@ Search all bookmarks via the `pin` keyword or only the unread ones with `pun`. A
 * &lt;kbd&gt;⌥&lt;/kbd&gt; View Tags.
 * &lt;kbd&gt;⌃&lt;/kbd&gt; View Description.
 * &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Open in Pinboard’s Website.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Force cache update.
 
-Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as a shortcut to add bookmarks, add the current browser tab as an unread bookmark, or open a random unread bookmark.
-
-Bookmarks are automatically fetched if the local data is old, but an update can be forced with &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;.</string>
+Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as a shortcut to add bookmarks, add the current browser tab as an unread bookmark, or open a random unread bookmark.</string>
 	<key>uidata</key>
 	<dict>
 		<key>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</key>
@@ -1394,188 +1235,179 @@ Bookmarks are automatically fetched if the local data is old, but an update can 
 			<key>note</key>
 			<string>Get URL to search user’s account</string>
 			<key>xpos</key>
-			<real>645</real>
+			<real>660</real>
 			<key>ypos</key>
-			<real>810</real>
+			<real>695</real>
 		</dict>
 		<key>0428362E-5C9C-4EB0-B5B2-470ABC9845E7</key>
 		<dict>
 			<key>note</key>
 			<string>Run unread action</string>
 			<key>xpos</key>
-			<real>950</real>
+			<real>965</real>
 			<key>ypos</key>
-			<real>810</real>
+			<real>695</real>
 		</dict>
 		<key>1B064314-76EC-4BF6-B361-A58A329A9C66</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>xpos</key>
-			<real>875</real>
+			<real>890</real>
 			<key>ypos</key>
-			<real>1145</real>
+			<real>1030</real>
 		</dict>
 		<key>2B67AFF0-0412-4E9B-88CE-ADF345434F52</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>45</real>
 			<key>ypos</key>
-			<real>745</real>
+			<real>630</real>
 		</dict>
 		<key>312A5A83-445F-49A9-91E3-5E65184C33B9</key>
 		<dict>
 			<key>note</key>
 			<string>Add frontmost tab as unread bookmark</string>
 			<key>xpos</key>
-			<real>30</real>
+			<real>45</real>
 			<key>ypos</key>
-			<real>430</real>
+			<real>315</real>
 		</dict>
 		<key>348262A6-0298-49B4-A582-AF48C527E471</key>
 		<dict>
 			<key>xpos</key>
-			<real>475</real>
+			<real>490</real>
 			<key>ypos</key>
-			<real>430</real>
-		</dict>
-		<key>3D96CA77-D858-4A9D-88A1-96F3EA66673A</key>
-		<dict>
-			<key>xpos</key>
-			<real>645</real>
-			<key>ypos</key>
-			<real>1285</real>
+			<real>315</real>
 		</dict>
 		<key>51173530-985F-468F-90DC-B37CC651F01A</key>
 		<dict>
 			<key>xpos</key>
-			<real>645</real>
+			<real>660</real>
 			<key>ypos</key>
-			<real>975</real>
+			<real>860</real>
 		</dict>
 		<key>5E0D7D4C-CE5C-4E87-846B-054F185D32D7</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>xpos</key>
-			<real>950</real>
+			<real>965</real>
 			<key>ypos</key>
-			<real>1135</real>
+			<real>1020</real>
 		</dict>
 		<key>63BFE2ED-8406-43CD-8D9E-B92207F8F738</key>
 		<dict>
 			<key>xpos</key>
-			<real>875</real>
+			<real>890</real>
 			<key>ypos</key>
-			<real>840</real>
+			<real>725</real>
 		</dict>
 		<key>6F415838-BBDD-460D-8389-C5292566442A</key>
 		<dict>
 			<key>xpos</key>
-			<real>395</real>
+			<real>410</real>
 			<key>ypos</key>
-			<real>755</real>
+			<real>640</real>
 		</dict>
 		<key>700D9E72-F8D4-4DC2-8A5E-E78DD2A72A7A</key>
 		<dict>
 			<key>xpos</key>
-			<real>875</real>
+			<real>890</real>
 			<key>ypos</key>
-			<real>1005</real>
+			<real>890</real>
 		</dict>
 		<key>746C53B7-21CF-4B6D-8557-54523EA81DF4</key>
 		<dict>
 			<key>note</key>
 			<string>Open GUI to add bookmark</string>
 			<key>xpos</key>
-			<real>240</real>
+			<real>255</real>
 			<key>ypos</key>
-			<real>155</real>
+			<real>40</real>
+		</dict>
+		<key>7DF82435-3D0E-43E4-BF16-87752A30CB06</key>
+		<dict>
+			<key>note</key>
+			<string>Flush cache</string>
+			<key>xpos</key>
+			<real>850</real>
+			<key>ypos</key>
+			<real>1170</real>
 		</dict>
 		<key>7FB43A68-C343-4F70-9C00-537C821140A2</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>xpos</key>
-			<real>1115</real>
+			<real>1130</real>
 			<key>ypos</key>
-			<real>1115</real>
+			<real>1000</real>
 		</dict>
 		<key>8DC58A3C-6774-4B9F-BC7D-0891C9A648F4</key>
 		<dict>
 			<key>note</key>
 			<string>Add bookmark</string>
 			<key>xpos</key>
-			<real>30</real>
+			<real>45</real>
 			<key>ypos</key>
-			<real>285</real>
+			<real>170</real>
 		</dict>
 		<key>9066848D-DBFB-4B04-954A-D0F998360A39</key>
 		<dict>
 			<key>xpos</key>
-			<real>240</real>
+			<real>255</real>
 			<key>ypos</key>
-			<real>430</real>
+			<real>315</real>
 		</dict>
 		<key>965BA49B-7AC1-43F3-8602-1F02FCC74695</key>
 		<dict>
 			<key>xpos</key>
-			<real>465</real>
+			<real>570</real>
 			<key>ypos</key>
-			<real>1315</real>
+			<real>1200</real>
 		</dict>
 		<key>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</key>
 		<dict>
 			<key>xpos</key>
-			<real>645</real>
+			<real>660</real>
 			<key>ypos</key>
-			<real>590</real>
+			<real>475</real>
 		</dict>
 		<key>A47E38E8-87FB-42B7-A966-4CFC5B0798FF</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>45</real>
 			<key>ypos</key>
-			<real>155</real>
+			<real>40</real>
 		</dict>
 		<key>BBA7D5B8-BDF1-4669-B928-461708E18DDF</key>
 		<dict>
 			<key>xpos</key>
-			<real>245</real>
+			<real>260</real>
 			<key>ypos</key>
-			<real>905</real>
+			<real>790</real>
 		</dict>
 		<key>BF585652-D2BD-4906-BEB9-0AC2A215899A</key>
 		<dict>
 			<key>xpos</key>
-			<real>395</real>
+			<real>410</real>
 			<key>ypos</key>
-			<real>460</real>
+			<real>345</real>
 		</dict>
-		<key>D38647F8-612B-4C9F-BE63-8F4B3D60EB74</key>
+		<key>D0C612E1-159B-4476-8920-0DCF4A15DAD8</key>
 		<dict>
-			<key>note</key>
-			<string>Force update</string>
 			<key>xpos</key>
-			<real>555</real>
+			<real>660</real>
 			<key>ypos</key>
-			<real>1315</real>
+			<real>1170</real>
 		</dict>
 		<key>DC6DE0A7-2311-4F8C-A1A8-457DC074F1EA</key>
 		<dict>
 			<key>xpos</key>
-			<real>240</real>
+			<real>255</real>
 			<key>ypos</key>
-			<real>590</real>
-		</dict>
-		<key>DD770517-8DE4-4374-AF73-7186420C0978</key>
-		<dict>
-			<key>note</key>
-			<string>launchd agent</string>
-			<key>xpos</key>
-			<real>645</real>
-			<key>ypos</key>
-			<real>155</real>
+			<real>475</real>
 		</dict>
 		<key>E38BE1A6-B024-4637-9693-8AE05B8600CD</key>
 		<dict>
@@ -1584,46 +1416,32 @@ Bookmarks are automatically fetched if the local data is old, but an update can 
 			<key>note</key>
 			<string>Download video with Download Media</string>
 			<key>xpos</key>
-			<real>645</real>
+			<real>660</real>
 			<key>ypos</key>
-			<real>1115</real>
-		</dict>
-		<key>E3D8770A-3517-4F4F-854A-7E88C2FA4E37</key>
-		<dict>
-			<key>xpos</key>
-			<real>240</real>
-			<key>ypos</key>
-			<real>25</real>
-		</dict>
-		<key>EF339515-CFD8-47BF-B208-FF9DCA32A2C1</key>
-		<dict>
-			<key>xpos</key>
-			<real>30</real>
-			<key>ypos</key>
-			<real>25</real>
+			<real>1000</real>
 		</dict>
 		<key>EFCEA4B6-8BAA-4509-AD10-EDA3CF3DF3EB</key>
 		<dict>
 			<key>note</key>
 			<string>Get random unread bookmark</string>
 			<key>xpos</key>
-			<real>30</real>
+			<real>45</real>
 			<key>ypos</key>
-			<real>590</real>
+			<real>475</real>
 		</dict>
 		<key>F575A0BC-7BDD-44EE-828A-AD3B6F1E074B</key>
 		<dict>
 			<key>xpos</key>
-			<real>395</real>
+			<real>410</real>
 			<key>ypos</key>
-			<real>620</real>
+			<real>505</real>
 		</dict>
 		<key>FA9C9F80-EFDB-4A12-AA7A-DC5D0F76E557</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>45</real>
 			<key>ypos</key>
-			<real>875</real>
+			<real>760</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -1943,32 +1761,13 @@ Changes come into effect on next cache update.</string>
 				<string>Sort Unread by Newest</string>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>How to organise bookmarks.</string>
 			<key>label</key>
-			<string>Unread Sorting</string>
+			<string>Sorting</string>
 			<key>type</key>
 			<string>checkbox</string>
 			<key>variable</key>
 			<string>sort_unread_newest</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<true/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Automatically redownload bookmarks on a schedule</string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string>Periodic Refresh</string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>auto_refresh</string>
 		</dict>
 		<dict>
 			<key>config</key>

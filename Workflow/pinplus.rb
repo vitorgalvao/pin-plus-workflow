@@ -54,10 +54,7 @@ def synced_with_website?
   last_access_local = File.exist?(Last_access_file) ? File.read(Last_access_file) : 'File does not yet exist'
   last_access_remote = JSON.parse(URI("https://api.pinboard.in/v1/posts/update?auth_token=#{Pinboard_token}&format=json").read)['update_time']
 
-  if last_access_local == last_access_remote
-    FileUtils.touch(Last_access_file)
-    return true
-  end
+  return true if last_access_local == last_access_remote
 
   File.write(Last_access_file, last_access_remote)
   false
@@ -85,23 +82,13 @@ def action_unread(action, url)
   URI("https://api.pinboard.in/v1/posts/add?url=#{url_encoded}&description=#{title_encoded}&extended=#{description_encoded}&shared=#{shared}&toread=#{toread}&tags=#{tags_encoded}&auth_token=#{Pinboard_token}")
 end
 
-def old_local_copy?
-  return true unless File.exist?(Last_access_file)
-  return false if ((Time.now - File.mtime(Last_access_file)) / 60).to_i < 60 # Keep the cache for 60 minutes
-
-  true
-end
-
 def show_bookmarks(bookmarks_file)
   fetch_bookmarks
   puts File.read(bookmarks_file)
 end
 
-def fetch_bookmarks(force = false)
-  unless force
-    return unless old_local_copy?
-    return if synced_with_website?
-  end
+def fetch_bookmarks
+  return if synced_with_website?
 
   all_bookmarks = JSON.parse(URI("https://api.pinboard.in/v1/posts/all?auth_token=#{Pinboard_token}&format=json").read)
 
@@ -157,6 +144,7 @@ def write_bookmarks(bookmarks, bookmarks_file, skip_knowledge)
   end
 
   File.write(bookmarks_file, {
+    cache: { seconds: 3600, loosereload: true },
     skipknowledge: skip_knowledge,
     items: sf_items
   }.to_json)
