@@ -16,12 +16,11 @@ Search all bookmarks via the `pin` keyword or only the unread ones with `pun`. A
 
 ![Showing bookmarks matching alfr](Workflow/images/about/pin.png)
 
-* <kbd>↩&#xFE0E;</kbd>: Open URL.
-* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd>: Copy URL.
-* <kbd>⌥</kbd>: View Tags.
-* <kbd>⌃</kbd>: View Description.
-* <kbd>⇧</kbd><kbd>↩&#xFE0E;</kbd>: Open in Pinboard’s Website.
+* <kbd>↩&#xFE0E;</kbd> Open URL.
+* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> Copy URL.
+* <kbd>⌥</kbd> View Tags.
+* <kbd>⌃</kbd> View Description.
+* <kbd>⇧</kbd><kbd>↩&#xFE0E;</kbd> Open in Pinboard’s Website.
+* <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⌃</kbd><kbd>↩&#xFE0E;</kbd> Force cache update.
 
 Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as a shortcut to add bookmarks, add the current browser tab as an unread bookmark, or open a random unread bookmark.
-
-Bookmarks are automatically fetched if the local data is old, but an update can be forced with <kbd>⌘</kbd><kbd>⌥</kbd><kbd>⌃</kbd><kbd>↩&#xFE0E;</kbd>.
