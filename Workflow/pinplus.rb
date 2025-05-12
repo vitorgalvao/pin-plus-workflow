@@ -114,8 +114,7 @@ def write_bookmarks(bookmarks, bookmarks_file, skip_knowledge)
       copy_url: { subtitle: 'Copy link to clipboard' },
       view_tags: { subtitle: bookmark['tags'].empty? ? '[No tags]' : bookmark['tags'] },
       view_description: { subtitle: bookmark['extended'].empty? ? '[No description]' : bookmark['extended'] },
-      pinboard_site: { subtitle: 'Open bookmark on Pinboard’s site' },
-      download_video: { subtitle: 'Download video to watch later' }
+      pinboard_site: { subtitle: 'Open bookmark on Pinboard’s site' }
     }
 
     # Each action has a variable with the same name

@@ -19,21 +19,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>1B064314-76EC-4BF6-B361-A58A329A9C66</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>5E0D7D4C-CE5C-4E87-846B-054F185D32D7</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>EED64F19-BE23-4767-8EEB-AB7DA5278BFC</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>2B67AFF0-0412-4E9B-88CE-ADF345434F52</key>
 		<array>
 			<dict>
@@ -81,21 +66,6 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>5E0D7D4C-CE5C-4E87-846B-054F185D32D7</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>7FB43A68-C343-4F70-9C00-537C821140A2</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>_button1</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -174,18 +144,6 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>F572CB2A-7A72-4D91-9BCB-D6D37C3FEE2C</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>E38BE1A6-B024-4637-9693-8AE05B8600CD</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>C9123165-8CFC-491E-AEE5-40C75DC58D3F</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -313,29 +271,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>F575A0BC-7BDD-44EE-828A-AD3B6F1E074B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>E38BE1A6-B024-4637-9693-8AE05B8600CD</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>63BFE2ED-8406-43CD-8D9E-B92207F8F738</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>1B064314-76EC-4BF6-B361-A58A329A9C66</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -798,20 +733,6 @@ show_bookmarks(All_bookmarks_json)</string>
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>download_video</string>
-						<key>outputlabel</key>
-						<string>Download Video</string>
-						<key>uid</key>
-						<string>C9123165-8CFC-491E-AEE5-40C75DC58D3F</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:action}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
 						<string>fetch_bookmarks</string>
 						<key>outputlabel</key>
 						<string>Fetch Bookmarks</string>
@@ -1028,119 +949,6 @@ show_bookmarks(Unread_bookmarks_json)</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://alfred.app/workflows/vitor/download-media/</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>7FB43A68-C343-4F70-9C00-537C821140A2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>function status(download_media_installed, download_url) {
-  return JSON.stringify({ alfredworkflow: {
-    variables: { download_media_installed: download_media_installed },
-    arg: download_url
-  }})
-}
-
-function run(argv) {
-  const url = argv[0]
-
-  try {
-    Application("com.runningwithcrayons.Alfred").runTrigger("download_video", { inWorkflow: "com.vitorgalvao.alfred.downloadmedia", withArgument: url })
-    return status(true, url)
-  } catch {
-    return status(false, url)
-  }
-}</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>7</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>E38BE1A6-B024-4637-9693-8AE05B8600CD</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>button1</key>
-				<string>Install From the Alfred Gallery</string>
-				<key>button2</key>
-				<string>Cancel</string>
-				<key>button3</key>
-				<string></string>
-				<key>description</key>
-				<string>The Download Media workflow is required to download video</string>
-				<key>title</key>
-				<string>Download Media Not Installed</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.dialog</string>
-			<key>uid</key>
-			<string>5E0D7D4C-CE5C-4E87-846B-054F185D32D7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:download_media_installed}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>6</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>Missing Download Media</string>
-						<key>uid</key>
-						<string>EED64F19-BE23-4767-8EEB-AB7DA5278BFC</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>1B064314-76EC-4BF6-B361-A58A329A9C66</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>tasksettings</key>
 				<dict>
 					<key>target_path</key>
@@ -1248,15 +1056,6 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>ypos</key>
 			<real>695</real>
 		</dict>
-		<key>1B064314-76EC-4BF6-B361-A58A329A9C66</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>xpos</key>
-			<real>890</real>
-			<key>ypos</key>
-			<real>1030</real>
-		</dict>
 		<key>2B67AFF0-0412-4E9B-88CE-ADF345434F52</key>
 		<dict>
 			<key>xpos</key>
@@ -1286,15 +1085,6 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<real>660</real>
 			<key>ypos</key>
 			<real>860</real>
-		</dict>
-		<key>5E0D7D4C-CE5C-4E87-846B-054F185D32D7</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>xpos</key>
-			<real>965</real>
-			<key>ypos</key>
-			<real>1020</real>
 		</dict>
 		<key>63BFE2ED-8406-43CD-8D9E-B92207F8F738</key>
 		<dict>
@@ -1333,16 +1123,7 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>850</real>
 			<key>ypos</key>
-			<real>1170</real>
-		</dict>
-		<key>7FB43A68-C343-4F70-9C00-537C821140A2</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>xpos</key>
-			<real>1130</real>
-			<key>ypos</key>
-			<real>1000</real>
+			<real>995</real>
 		</dict>
 		<key>8DC58A3C-6774-4B9F-BC7D-0891C9A648F4</key>
 		<dict>
@@ -1365,7 +1146,7 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>570</real>
 			<key>ypos</key>
-			<real>1200</real>
+			<real>1025</real>
 		</dict>
 		<key>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</key>
 		<dict>
@@ -1400,7 +1181,7 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>660</real>
 			<key>ypos</key>
-			<real>1170</real>
+			<real>995</real>
 		</dict>
 		<key>DC6DE0A7-2311-4F8C-A1A8-457DC074F1EA</key>
 		<dict>
@@ -1408,17 +1189,6 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<real>255</real>
 			<key>ypos</key>
 			<real>475</real>
-		</dict>
-		<key>E38BE1A6-B024-4637-9693-8AE05B8600CD</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>note</key>
-			<string>Download video with Download Media</string>
-			<key>xpos</key>
-			<real>660</real>
-			<key>ypos</key>
-			<real>1000</real>
 		</dict>
 		<key>EFCEA4B6-8BAA-4509-AD10-EDA3CF3DF3EB</key>
 		<dict>
@@ -1536,10 +1306,6 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 						<string>Open in Pinboard</string>
 						<string>pinboard_site</string>
 					</array>
-					<array>
-						<string>Download Video</string>
-						<string>download_video</string>
-					</array>
 				</array>
 			</dict>
 			<key>description</key>
@@ -1577,10 +1343,6 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 					<array>
 						<string>Open in Pinboard</string>
 						<string>pinboard_site</string>
-					</array>
-					<array>
-						<string>Download Video</string>
-						<string>download_video</string>
 					</array>
 				</array>
 			</dict>
@@ -1620,10 +1382,6 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 						<string>Open in Pinboard</string>
 						<string>pinboard_site</string>
 					</array>
-					<array>
-						<string>Download Video</string>
-						<string>download_video</string>
-					</array>
 				</array>
 			</dict>
 			<key>description</key>
@@ -1662,10 +1420,6 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 						<string>Open in Pinboard</string>
 						<string>pinboard_site</string>
 					</array>
-					<array>
-						<string>Download Video</string>
-						<string>download_video</string>
-					</array>
 				</array>
 			</dict>
 			<key>description</key>
@@ -1703,10 +1457,6 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 					<array>
 						<string>Open in Pinboard</string>
 						<string>pinboard_site</string>
-					</array>
-					<array>
-						<string>Download Video</string>
-						<string>download_video</string>
 					</array>
 				</array>
 			</dict>
