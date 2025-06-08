@@ -34,18 +34,15 @@ def add_unread(url, title)
   url_encoded = CGI.escape(url)
   title_encoded = CGI.escape(title)
 
-  result = JSON.parse(URI("https://api.pinboard.in/v1/posts/add?url=#{url_encoded}&description=#{title_encoded}&toread=yes&auth_token=#{Pinboard_token}&format=json").read)['result_code']
+  begin
+    result_code = JSON.parse(URI("https://api.pinboard.in/v1/posts/add?url=#{url_encoded}&description=#{title_encoded}&toread=yes&auth_token=#{Pinboard_token}&format=json").read)['result_code']
 
-  return if result == 'done'
+    return if result_code == 'done'
 
-  error_log = "#{ENV['HOME']}/Desktop/pinplus_errors.log"
-
-  reason = status.nil? ? 'Got no reply from server.' : result
-  File.write(error_log, "---\n", mode: 'a') if File.exist?(error_log)
-
-  File.write(error_log, "error: #{reason}\ntitle: #{title}\nurl: #{url}\nencoded title: #{title_encoded}\nencoded url: #{url_encoded}\n", mode: 'a')
-
-  error('Error adding bookmark. See error log in Desktop.')
+    error("Error: #{result_code}")
+  rescue
+    error('No Response from Server')
+  end
 end
 
 def synced_with_website?
