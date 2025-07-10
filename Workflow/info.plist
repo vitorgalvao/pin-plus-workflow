@@ -6,19 +6,6 @@
 	<string>com.vitorgalvao.alfred.pinplus</string>
 	<key>connections</key>
 	<dict>
-		<key>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>2B67AFF0-0412-4E9B-88CE-ADF345434F52</key>
 		<array>
 			<dict>
@@ -47,6 +34,19 @@
 		</array>
 		<key>348262A6-0298-49B4-A582-AF48C527E471</key>
 		<array/>
+		<key>4968ACBA-1F88-4B24-ADC5-458E87E049A5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9768284A-74B9-40F3-95B1-F30F25B273CD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>51173530-985F-468F-90DC-B37CC651F01A</key>
 		<array>
 			<dict>
@@ -125,18 +125,6 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>78844A0F-A50E-4945-B008-118FFED81DC1</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>51173530-985F-468F-90DC-B37CC651F01A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -156,6 +144,31 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>3D0CCE04-E56F-48DE-906A-F83FD8C309AB</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E9EFBA2A-E725-4B63-8657-5389E9364274</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>78844A0F-A50E-4945-B008-118FFED81DC1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>743EE796-A6F9-4AFF-BF52-0995A72025D9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4968ACBA-1F88-4B24-ADC5-458E87E049A5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -193,6 +206,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>D0C612E1-159B-4476-8920-0DCF4A15DAD8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9768284A-74B9-40F3-95B1-F30F25B273CD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>17571892-E517-4940-8F74-0CAD55A5938D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -271,6 +297,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>F575A0BC-7BDD-44EE-828A-AD3B6F1E074B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E9EFBA2A-E725-4B63-8657-5389E9364274</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>743EE796-A6F9-4AFF-BF52-0995A72025D9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -705,20 +744,6 @@ show_bookmarks(All_bookmarks_json)</string>
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>pinboard_site</string>
-						<key>outputlabel</key>
-						<string>Open in Pinboard</string>
-						<key>uid</key>
-						<string>78844A0F-A50E-4945-B008-118FFED81DC1</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:action}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
 						<string>copy_url</string>
 						<key>outputlabel</key>
 						<string>Copy URL</string>
@@ -739,6 +764,20 @@ show_bookmarks(All_bookmarks_json)</string>
 						<key>uid</key>
 						<string>3D0CCE04-E56F-48DE-906A-F83FD8C309AB</string>
 					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:action}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>pinboard_site</string>
+						<key>outputlabel</key>
+						<string>Open in Pinboard</string>
+						<key>uid</key>
+						<string>78844A0F-A50E-4945-B008-118FFED81DC1</string>
+					</dict>
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
@@ -755,27 +794,21 @@ show_bookmarks(All_bookmarks_json)</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
+				<key>autopaste</key>
 				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>require "#{Dir.pwd}/pinplus.rb"
-
-search_in_website(ARGV[0])</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>2</integer>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</string>
+			<string>51173530-985F-468F-90DC-B37CC651F01A</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -917,25 +950,6 @@ show_bookmarks(Unread_bookmarks_json)</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>51173530-985F-468F-90DC-B37CC651F01A</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>unstackview</key>
 				<false/>
 			</dict>
@@ -1014,6 +1028,102 @@ tell application id "com.runningwithcrayons.Alfred" to run trigger bookmarkstype
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<true/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string>%20</string>
+				<key>url</key>
+				<string>https://pinboard.in/search/u:{var:username}?query={query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>17571892-E517-4940-8F74-0CAD55A5938D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:api_key}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>E9EFBA2A-E725-4B63-8657-5389E9364274</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string> -</string>
+				<key>replacestring</key>
+				<string> </string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>9768284A-74B9-40F3-95B1-F30F25B273CD</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:title}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>username</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>4968ACBA-1F88-4B24-ADC5-458E87E049A5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>:.*</string>
+				<key>regexcaseinsensitive</key>
+				<false/>
+				<key>regexmultiline</key>
+				<false/>
+				<key>replacestring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>743EE796-A6F9-4AFF-BF52-0995A72025D9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>## Usage
@@ -1032,29 +1142,27 @@ Search all bookmarks via the `pin` keyword or only the unread ones with `pun`. A
 * &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy URL.
 * &lt;kbd&gt;⌥&lt;/kbd&gt; View Tags.
 * &lt;kbd&gt;⌃&lt;/kbd&gt; View Description.
-* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Open in Pinboard’s Website.
+* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Search in Pinboard’s Website.
 * &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Force cache update.
 
 Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as a shortcut to add bookmarks, add the current browser tab as an unread bookmark, or open a random unread bookmark.</string>
 	<key>uidata</key>
 	<dict>
-		<key>03D48D68-93A6-49C2-B1BD-B8BF3DDE698F</key>
-		<dict>
-			<key>note</key>
-			<string>Get URL to search user’s account</string>
-			<key>xpos</key>
-			<real>660</real>
-			<key>ypos</key>
-			<real>695</real>
-		</dict>
 		<key>0428362E-5C9C-4EB0-B5B2-470ABC9845E7</key>
 		<dict>
 			<key>note</key>
 			<string>Run unread action</string>
 			<key>xpos</key>
-			<real>965</real>
+			<real>990</real>
 			<key>ypos</key>
 			<real>695</real>
+		</dict>
+		<key>17571892-E517-4940-8F74-0CAD55A5938D</key>
+		<dict>
+			<key>xpos</key>
+			<real>990</real>
+			<key>ypos</key>
+			<real>1075</real>
 		</dict>
 		<key>2B67AFF0-0412-4E9B-88CE-ADF345434F52</key>
 		<dict>
@@ -1079,12 +1187,19 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>ypos</key>
 			<real>315</real>
 		</dict>
+		<key>4968ACBA-1F88-4B24-ADC5-458E87E049A5</key>
+		<dict>
+			<key>xpos</key>
+			<real>800</real>
+			<key>ypos</key>
+			<real>1105</real>
+		</dict>
 		<key>51173530-985F-468F-90DC-B37CC651F01A</key>
 		<dict>
 			<key>xpos</key>
 			<real>660</real>
 			<key>ypos</key>
-			<real>860</real>
+			<real>695</real>
 		</dict>
 		<key>63BFE2ED-8406-43CD-8D9E-B92207F8F738</key>
 		<dict>
@@ -1105,7 +1220,16 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>890</real>
 			<key>ypos</key>
-			<real>890</real>
+			<real>830</real>
+		</dict>
+		<key>743EE796-A6F9-4AFF-BF52-0995A72025D9</key>
+		<dict>
+			<key>note</key>
+			<string>Pinboard username from token</string>
+			<key>xpos</key>
+			<real>700</real>
+			<key>ypos</key>
+			<real>1105</real>
 		</dict>
 		<key>746C53B7-21CF-4B6D-8557-54523EA81DF4</key>
 		<dict>
@@ -1123,7 +1247,7 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>850</real>
 			<key>ypos</key>
-			<real>995</real>
+			<real>910</real>
 		</dict>
 		<key>8DC58A3C-6774-4B9F-BC7D-0891C9A648F4</key>
 		<dict>
@@ -1146,7 +1270,16 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>570</real>
 			<key>ypos</key>
-			<real>1025</real>
+			<real>940</real>
+		</dict>
+		<key>9768284A-74B9-40F3-95B1-F30F25B273CD</key>
+		<dict>
+			<key>note</key>
+			<string>Remove the " -" patterns which can be in titles but makes Pinboard ignore a word in search</string>
+			<key>xpos</key>
+			<real>890</real>
+			<key>ypos</key>
+			<real>1105</real>
 		</dict>
 		<key>A0E45AB0-74B7-4C7E-8A56-B6B4E0D84722</key>
 		<dict>
@@ -1181,7 +1314,7 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>660</real>
 			<key>ypos</key>
-			<real>995</real>
+			<real>910</real>
 		</dict>
 		<key>DC6DE0A7-2311-4F8C-A1A8-457DC074F1EA</key>
 		<dict>
@@ -1189,6 +1322,13 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<real>255</real>
 			<key>ypos</key>
 			<real>475</real>
+		</dict>
+		<key>E9EFBA2A-E725-4B63-8657-5389E9364274</key>
+		<dict>
+			<key>xpos</key>
+			<real>570</real>
+			<key>ypos</key>
+			<real>1105</real>
 		</dict>
 		<key>EFCEA4B6-8BAA-4509-AD10-EDA3CF3DF3EB</key>
 		<dict>

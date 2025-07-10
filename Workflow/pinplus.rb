@@ -115,9 +115,12 @@ def write_bookmarks(bookmarks, bookmarks_file, skip_knowledge)
     }
 
     # Each action has a variable with the same name
-    actions.keys.each do |key|
+    actions.each_key do |key|
       actions[key][:variables] = { action: key.to_s }
     end
+
+    # Opening in pinboard website requires a bit more information
+    actions[:pinboard_site][:variables][:title] = bookmark['description']
 
     # Populate modifiers
     modifiers = {
@@ -144,9 +147,4 @@ def write_bookmarks(bookmarks, bookmarks_file, skip_knowledge)
     skipknowledge: skip_knowledge,
     items: sf_items
   }.to_json)
-end
-
-def search_in_website(url)
-  username = Pinboard_token.sub(/:.*/, '')
-  print "https://pinboard.in/search/u:#{username}?query=#{url.sub(%r{^(http[s]|ftp)://}, '')}".strip
 end
